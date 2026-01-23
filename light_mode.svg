@@ -16,7 +16,7 @@
         text, tspan {white-space: pre;}
     </style>
     <rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
-    <text x="15" y="30" fill="#24292f" class="ascii">
+    <text x="15" y="30" fill="#c9d1d9" class="ascii">
         <tspan x="15" y="30">      ____  _  _   _   ___      __</tspan>
         <tspan x="15" y="50">     |  _ \| || | | \ | \ \    / /</tspan>
         <tspan x="15" y="70">     | |_) | || |_|  \| |\ \  / / </tspan>
@@ -29,15 +29,15 @@
         <tspan x="15" y="210">      ╚═══════════════════════╝   </tspan>
         <tspan x="15" y="230">                                 </tspan>
         <tspan x="15" y="250">       ┌─────────────────────┐     </tspan>
-        <tspan x="15" y="270">       │  CODE • BUILD • SHIP │     </tspan>
+        <tspan x="15" y="270">       │ CODE • BUILD • SHIP │     </tspan>
         <tspan x="15" y="290">       └─────────────────────┘     </tspan>
         <tspan x="15" y="310">                                 </tspan>
         <tspan x="15" y="320">        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      </tspan>
         <tspan x="15" y="350">      ▓   GITHUB  STATISTICS   ▓      </tspan>
         <tspan x="15" y="385">        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      </tspan>
         <tspan x="15" y="390">                                </tspan>
-        <tspan x="15" y="410">      [====>              25%]    </tspan>
-        <tspan x="15" y="430">      Loading profile...          </tspan>
+        <tspan x="15" y="410">       [====>              25%]    </tspan>
+        <tspan x="15" y="430">       Loading profile...          </tspan>
         <tspan x="15" y="450">                                </tspan>
         <tspan x="15" y="470">        █▓▒░ ACTIVE CODER ░▒▓█      </tspan>
         <tspan x="15" y="490">                                </tspan>
