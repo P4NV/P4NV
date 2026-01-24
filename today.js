@@ -480,7 +480,7 @@ async function main() {
     formatter('account data', userTime);
 
     // Calculate age (update with P4NV's birthdate if known, or remove)
-    const [ageData, ageTime] = await perfCounter(dailyReadme, '2000-01-01'); // Update birthdate
+    const [ageData, ageTime] = await perfCounter(dailyReadme, '2005-21-03'); // Update birthdate
     formatter('age calculation', ageTime);
 
     // Get LOC
