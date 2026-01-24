@@ -244,15 +244,30 @@ async function cacheBuilder(edges, commentSize, forceCache) {
     let data = [];
     try {
         const content = await fs.readFile(filename, 'utf-8');
-        data = content.split('\n');
+        const lines = content.split('\n');
+        // Keep all lines including empty ones for proper indexing
+        data = lines;
     } catch (err) {
+        // File doesn't exist, create initial structure
         data = [];
         if (commentSize > 0) {
             for (let i = 0; i < commentSize; i++) {
-                data.push('This line is a comment block. Write whatever you want here.\n');
+                data.push('Comment line ' + (i + 1));
             }
         }
-        await fs.writeFile(filename, data.join(''));
+        // Add placeholder lines for each repo
+        for (let i = 0; i < edges.length; i++) {
+            const hash = crypto.createHash('sha256').update(edges[i].node.nameWithOwner).digest('hex');
+            data.push(`${hash} 0 0 0 0`);
+        }
+        await fs.writeFile(filename, data.join('\n'));
+    }
+
+    // Ensure we have the right number of lines
+    const expectedLines = commentSize + edges.length;
+    while (data.length < expectedLines) {
+        const hash = crypto.createHash('sha256').update(edges[data.length - commentSize]?.node?.nameWithOwner || 'unknown').digest('hex');
+        data.push(`${hash} 0 0 0 0`);
     }
 
     if (data.length - commentSize !== edges.length || forceCache) {
@@ -266,7 +281,14 @@ async function cacheBuilder(edges, commentSize, forceCache) {
     data = data.slice(commentSize);
 
     for (let index = 0; index < edges.length; index++) {
-        const parts = data[index].split(' ');
+        // Ensure data[index] exists and is a string
+        if (!data[index] || typeof data[index] !== 'string') {
+            const hash = crypto.createHash('sha256').update(edges[index].node.nameWithOwner).digest('hex');
+            data[index] = `${hash} 0 0 0 0`;
+            continue;
+        }
+
+        const parts = data[index].trim().split(/\s+/); // Split by any whitespace
         const repoHash = parts[0];
         const commitCount = parts[1];
 
@@ -286,7 +308,7 @@ async function cacheBuilder(edges, commentSize, forceCache) {
         }
     }
 
-    await fs.writeFile(filename, cacheComment.join('') + data.join(''));
+    await fs.writeFile(filename, cacheComment.join('\n') + '\n' + data.join('\n'));
 
     let locAdd = 0, locDel = 0;
     for (const line of data) {
