@@ -20,30 +20,30 @@
         <tspan x="15" y="30" > </tspan>
         <tspan x="15" y="50" > </tspan>
         <tspan x="15" y="70" > </tspan>
-        <tspan x="15" y="90" >           .oXXXXXXXXXXXXXXXXXXo.</tspan>
-        <tspan x="15" y="110">         .oXXXXX/XXXXXXXX\XXXXXXXo.</tspan>
-        <tspan x="15" y="130">        /XXXXXX-\XXXXXXXX/-XXXXXXXx\</tspan>
-        <tspan x="15" y="150">       dXXXXXX/XX\XXXXXX/XX\XXXXXXXXb</tspan>
-        <tspan x="15" y="170">      XXXXXXXXXXXX\XXXX/XXXXXXXXXXXXX</tspan>
-        <tspan x="15" y="190">      XXX'~   ~`OO8bXXXd8OO'~  ~`XXXXX</tspan>
-        <tspan x="15" y="210">      9XX'        `98v8P'         `XXP'</tspan>
-        <tspan x="15" y="230">       9X.        .db|db.         .XP</tspan>
-        <tspan x="15" y="250">        )b. .dbo.dP'`v'`9b.odb. .dX(</tspan>
-        <tspan x="15" y="270">      ,dXXXXXXXXXXb     dXXXXXXXXXXb.</tspan>
-        <tspan x="15" y="290">     dXXXXXXXXXXP'   .   `9XXXXXXXXXXb</tspan>
-        <tspan x="15" y="310">    dXXXXXXXXXXXb   d|b   dXXXXXXXXXXXb</tspan>
-        <tspan x="15" y="330">    9XXb'  `XXXXXb.dX|Xb.dXXXXX'  `dXXP</tspan>
-        <tspan x="15" y="350">     `'     9XXXXXX(   )XXXXXXP     `'</tspan>
-        <tspan x="15" y="370">             XXXX X.`N'.X XXXX⠀</tspan>
-        <tspan x="15" y="390">             XP^X'`O   0'`X^XX</tspan>
-        <tspan x="15" y="410">             X. R  `   '  9 )X </tspan>
-        <tspan x="15" y="430">             `K  `       '  7' </tspan>
-        <tspan x="15" y="450">              `             ' </tspan>
+        <tspan x="15" y="90" >       .oXXXXXXXXXXXXXXXXXXo.</tspan>
+        <tspan x="15" y="110">     .oXXXXX/XXXXXXXX\XXXXXXXo.</tspan>
+        <tspan x="15" y="130">    /XXXXXX-\XXXXXXXX/-XXXXXXXx\</tspan>
+        <tspan x="15" y="150">   dXXXXXX/XX\XXXXXX/XX\XXXXXXXXb</tspan>
+        <tspan x="15" y="170">  XXXXXXXXXXXX\XXXX/XXXXXXXXXXXXX</tspan>
+        <tspan x="15" y="190">  XXX'~   ~`OO8bXXXd8OO'~  ~`XXXXX</tspan>
+        <tspan x="15" y="210">  9XX'        `98v8P'         `XXP'</tspan>
+        <tspan x="15" y="230">   9X.        .db|db.         .XP</tspan>
+        <tspan x="15" y="250">    )b. .dbo.dP'`v'`9b.odb. .dX(</tspan>
+        <tspan x="15" y="270">  ,dXXXXXXXXXXb     dXXXXXXXXXXb.</tspan>
+        <tspan x="15" y="290"> dXXXXXXXXXXP'   .   `9XXXXXXXXXXb</tspan>
+        <tspan x="15" y="310">dXXXXXXXXXXXb   d|b   dXXXXXXXXXXXb</tspan>
+        <tspan x="15" y="330">9XXb'  `XXXXXb.dX|Xb.dXXXXX'  `dXXP</tspan>
+        <tspan x="15" y="350"> `'     9XXXXXX(   )XXXXXXP     `'</tspan>
+        <tspan x="15" y="370">         XXXX X.`N'.X XXXX⠀</tspan>
+        <tspan x="15" y="390">         XP^X'`O   0'`X^XX</tspan>
+        <tspan x="15" y="410">         X. R  `   '  9 )X </tspan>
+        <tspan x="15" y="430">         `K  `       '  7' </tspan>
+        <tspan x="15" y="450">          `             ' </tspan>
         <tspan x="15" y="470"> </tspan>
         <tspan x="15" y="490"> </tspan>
         <tspan x="15" y="510"> </tspan>
     </text>
-    <text x="390" y="30" fill="#c9d1d9">
+    <text x="490" y="30" fill="#c9d1d9">
         <tspan x="420" y="30">p4nv@github</tspan> ————————————————————————————————————————————
         <tspan x="440" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Linux, Windows</tspan>
         <tspan x="440" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................. </tspan><tspan class="value" id="age_data">1 years, 1 month, 23 days</tspan>
