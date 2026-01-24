@@ -469,6 +469,20 @@ function formatter(queryType, difference, functReturn = false, whitespace = 0) {
     return functReturn;
 }
 
+function calculateAge(birthdate) {
+    const birth = new Date(birthdate);
+    const today = new Date();
+    let age = today.getFullYear() - birth.getFullYear();
+    const monthDiff = today.getMonth() - birth.getMonth();
+    
+    // Adjust if birthday hasn't occurred yet this year
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+        age--;
+    }
+    
+    return age;
+}
+
 // Main execution
 async function main() {
     console.log('Calculation times:');
