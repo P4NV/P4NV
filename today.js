@@ -359,6 +359,8 @@ function starsCounter(data) {
 async function svgOverwrite(filename, ageData, commitData, starData, repoData, contribData, followerData, locData) {
     let svg = await fs.readFile(filename, 'utf-8');
 
+    // ADD THE LINE HERE, right after reading the file:
+    svg = justifyFormat(svg, 'age_data', ageData, 35);
     svg = justifyFormat(svg, 'commit_data', commitData, 22);
     svg = justifyFormat(svg, 'star_data', starData, 14);
     svg = justifyFormat(svg, 'repo_data', repoData, 6);
@@ -533,7 +535,7 @@ async function main() {
     console.log(`\nTotal function time: ${totalTime.toFixed(4)} s`);
     console.log(`\nTotal GitHub GraphQL API calls: ${Object.values(QUERY_COUNT).reduce((a, b) => a + b, 0)}`);
     for (const [name, count] of Object.entries(QUERY_COUNT)) {
-        console.log(`   ${name.padEnd(25)}: ${count.toString().padStart(6)}`);
+    console.log(`   ${name.padEnd(25)}: ${count.toString().padStart(6)}`);
     }
 }
 
