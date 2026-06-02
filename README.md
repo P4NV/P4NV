@@ -1,6 +1,6 @@
 # Hey there! 👋
 
-I'm Antonio Pavin, a frontend developer based in Croatia.
+I'm Antonio, a frontend developer based in Croatia.
 
 I build interfaces and turn ideas into things you can actually click on.
 
