@@ -1,11 +1,40 @@
-# Hey there! 👋
+<div align="center">
 
-I'm Antonio, a frontend developer based in Croatia.
+# [Your Name]
 
-I build interfaces and turn ideas into things you can actually click on.
+<sub>[One-line tagline — what you do or what drives you]</sub>
 
-If something looks interesting — a framework, a business idea, a side project — I'll probably dive in and figure it out.
+</div>
 
-My current stack is HTML,Tailwind, JavaScript, and React. I'm comfortable in the browser and always picking up something new.
+<br>
 
-I'm still early in my journey, but I ship things and I learn fast.
+```yaml
+[you]@github
+──────────────────────────
+role         [Software Developer / Student / etc.]
+location     [City, Country]
+languages    [Language1, Language2, Language3]
+frameworks   [Framework1, Framework2]
+building     [current project or focus]
+learning     [skill or tech you're picking up]
+```
+
+<br>
+
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-1a1a1a?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Python](https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=3776AB)
+
+</div>
+
+<br>
+
+<div align="center">
+
+[LinkedIn](https://linkedin.com/in/yourhandle) · [Email](mailto:you@example.com) · [Portfolio](https://yourportfolio.com)
+
+</div>
